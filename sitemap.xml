@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://plateofplants.com/this-is-the-url</loc>
+    <lastmod>2016-05-18T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/404.html</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/about</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/blog</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/thank-you-for-contacting-me</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/contact</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/recipes</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/thank-you-for-subscribing</loc>
+  </url>
+  <url>
+    <loc>http://plateofplants.com/subscribe</loc>
+  </url>
+    <url>
+      <loc>http://plateofplants.com/this-is-the-url</loc>
+    </url>
+</urlset>

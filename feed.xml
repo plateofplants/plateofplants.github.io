@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
+<link href="http://plateofplants.com/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://plateofplants.com/" rel="alternate" type="text/html" />
+<updated>2016-05-18T19:07:48-04:00</updated>
+<id>http://plateofplants.com/</id>
+<subtitle>This needs to be a description that says stuff and things about Plate of Plants. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle>
+<author>
+<name>Hannah Schoenborn</name>
+</author>
+<entry>
+<title>This is a post title.</title>
+<link href="http://plateofplants.com/this-is-the-url" rel="alternate" type="text/html" title="This is a post title." />
+<published>2016-05-18T00:00:00-04:00</published>
+<updated>2016-05-18T00:00:00-04:00</updated>
+<id>http://plateofplants.com/this-is-the-url</id>
+<content type="html" xml:base="http://plateofplants.com/this-is-the-url">&lt;p&gt;This is some content. And stuff. And things.&lt;/p&gt;
+</content>
+<category term="recipe" />
+<summary>This is some content. And stuff. And things.</summary>
+</entry>
+</feed>

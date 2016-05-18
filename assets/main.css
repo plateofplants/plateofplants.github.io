@@ -1,0 +1,87 @@
+body {
+  background-color: #FFE3C6;
+  font-family: 'Dosis', sans-serif; }
+
+h1 {
+  color: #4CAF50;
+  font-size: 3.5rem;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px #388E3C, -2px -2px #8BC34A; }
+
+h2, h3, h4, h5 {
+  color: #4CAF50;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold; }
+
+a {
+  font-weight: bold;
+  color: #4CAF50; }
+
+a:hover {
+  color: #8BC34A;
+  text-decoration: underline; }
+
+a:visited {
+  color: #388E3C; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: #8BC34A; }
+
+legend {
+  color: #4CAF50;
+  font-size: 1.5625rem; }
+
+.menu {
+  background-color: #FFD5A9; }
+
+.menu .active a {
+  text-decoration: underline; }
+
+.menu a {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem; }
+
+.callout {
+  background-color: inherit;
+  border: none; }
+
+.callout.primary {
+  background-image: url("https://www.colourbox.com/preview/7655855-roots-of-fresh-carrots-organic-raw-food-ingredients.jpg");
+  background-size: cover; }
+
+.callout.primary a {
+  color: #4CAF50; }
+
+.callout.primary a:hover {
+  color: #4CAF50;
+  text-decoration: none; }
+
+.sticky ul {
+  margin-left: 1.25rem; }
+
+.pagination .current {
+  background: #C5E1A5;
+  color: #fefefe;
+  font-weight: bold; }
+
+.pagination a {
+  color: #4CAF50; }
+
+.pagination a:hover {
+  background-color: #C5E1A5; }
+
+.pagination .disabled {
+  color: #999; }
+
+.thumbnail {
+  max-height: 350px; }
+
+#selfie {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 10px auto; }
+
+#content {
+  margin-top: 20px; }

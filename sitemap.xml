@@ -5,6 +5,10 @@
     <lastmod>2016-05-18T00:00:00-04:00</lastmod>
   </url>
   <url>
+    <loc>http://plateofplants.com/my-cool-post</loc>
+    <lastmod>2016-05-18T00:00:00-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://plateofplants.com/404.html</loc>
   </url>
   <url>
@@ -31,6 +35,9 @@
   <url>
     <loc>http://plateofplants.com/subscribe</loc>
   </url>
+    <url>
+      <loc>http://plateofplants.com/my-cool-post</loc>
+    </url>
     <url>
       <loc>http://plateofplants.com/this-is-the-url</loc>
     </url>

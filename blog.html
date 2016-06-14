@@ -8,9 +8,9 @@ title: Blog
   {% for post in site.posts %}
   {% unless post.categories contains 'recipe' or post.tags contains 'recipe' %}
   <div class="blog-post">
-    <h3>
+    <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
+    </h2>
     {% if post.thumbnail %}
     <img class="thumbnail" src="{{ post.thumbnail }}">
     {% endif %}

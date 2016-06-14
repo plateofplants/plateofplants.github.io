@@ -1,0 +1,38 @@
+author: Hannah Schoenborn
+
+email: hannah@plateofplants.com
+
+title: Plate of Plants
+
+description: >
+  This needs to be a description that says stuff and things about Plate of Plants.
+  It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+
+baseurl: ''
+
+url: http://plateofplants.com
+
+disqus: plateofplants
+
+permalink: /:title
+
+paginate: 10
+
+markdown: kramdown
+
+gems:
+- jekyll-assets
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jemoji
+
+exclude:
+- CNAME
+- Gemfile
+- Rakefile
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  {% if page.title %}
+    {% assign title = page.title %}
+  {% else %}
+    {% assign title = site.title %}
+  {% endif %}
+  
+  <title>{{ title }}</title>
+
+  {% if page.description %}
+    {% assign description = page.description %}
+  {% else %}
+    {% assign description = site.description %}
+  {% endif %}
+
+  <meta name="description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
+
+  {% if page.tags and pages.tags.size > 0 %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+  {% if page.image.thumb %}
+    {% assign image = page.image.thumb | asset_path | prepend: site.baseurl | prepend: site.url %}
+  {% else %}
+    {% assign image = "logo" | asset_path | prepend: site.baseurl | prepend: site.url %}
+  {% endif %}
+
+  {% assign url = page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ image }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page.image.feature | prepend: "/assets/" | prepend: site.baseurl | prepend: site.url }}">
+  {% else %}<meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ image }}">{% endif %}
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:creator" content="{{ site.twitter }}">
+
+  {% css main %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400%7CUbuntu">
+  
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/apple-touch-icon-precomposed.png" | prepend: site.baseurl }}">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <link rel="canonical" href="{{ url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

@@ -1,0 +1,21 @@
+---
+layout: default
+
+title: Recipes
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+  {% if post.categories contains 'recipe' or post.tags contains 'recipe' %}
+  <div class="blog-post">
+    <h3>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h3>
+    {% if post.thumbnail %}
+    <img class="thumbnail" src="{{ post.thumbnail }}">
+    {% endif %}
+    <p>{{ post.content }}</p>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

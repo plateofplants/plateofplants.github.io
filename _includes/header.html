@@ -1,0 +1,52 @@
+<header class="masthead">
+  <div class="overlay"{% if page.image and page.image.header %} style="background-image: url('{{ page.image.header | asset_path }}');"{% endif %}>
+    <div class="container">
+      <h1 class="masthead-title"{% if page.layout == "post" %} itemprop="name headline"{% endif %}>
+        {% if page.title %}
+          {% assign title = page.title %}
+        {% else %}
+          {% assign title = site.title %}
+        {% endif %}
+        {% assign title = title | split: ' ' %}
+
+        {% if page.title_words %}
+          {% assign title_words = page.title_words %}
+        {% else %}
+          {% assign title_words = 4 %}
+        {% endif %}
+        
+        {% capture bigtitle %}{% assign i = 0 %}{% for word in title %}{% if i < title_words and word != '-' %}{{ word }} {% endif %}{% assign i = i | plus: 1 %}{% endfor %}{% endcapture %}
+
+        {% capture subtitle %}{% assign i = 0 %}{% for word in title %}{% if i >= title_words and word != '-' %}{{ word }} {% endif %}{% assign i = i | plus: 1 %}{% endfor %}{% endcapture %}
+        
+        {{ bigtitle }}
+
+        {% if subtitle | size > 0 %}
+          <small>{{ subtitle }}</small>
+        {% endif %}
+      </h1>
+
+      <hr>
+
+      {% if page.layout == "post" %}
+      <div class="post-meta">
+        <span>By <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span>
+          </span>
+        </span>
+        <span> &#8226; </span>
+        <span>
+          <i class="icon icons-clock"></i>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+        </span>
+      </div>
+      {% endif %}
+
+      {% if page.description %}
+      <div class="page-description">
+        <p class="lead">{{ page.description }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</header>

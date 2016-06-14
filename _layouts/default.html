@@ -1,0 +1,56 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Plate of Plants</title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Dosis|Poiret+One' rel='stylesheet' type='text/css'>
+    {% css main %}
+  </head>
+  <body>
+    <div class="callout large primary">
+      <div class="row column text-center">
+        <h1><a href="/">Plate<br>of<br>Plants</a></h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <ul class="menu">
+        <li{% if page.url == '/recipes' %} class="active"{% endif %}><a href="/recipes">Recipes</a></li>
+        <li{% if page.url == '/blog' %} class="active"{% endif %}><a href="/blog">Blog</a></li>
+        <li{% if page.url == '/about' %} class="active"{% endif %}><a href="/about">About</a></li>
+        <li{% if page.url == '/contact' %} class="active"{% endif %}><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        {{ content }}
+      </div>
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          {% img 'hannah.jpg' alt:'Hannah Schoenborn' id:'selfie' width:180 height:180 magick:resize:180x180 %}
+          <h4 class="hello">Hello</h4>
+          <p class="about-me">
+            My name is Hannah. I created plate of plants to share recipes, tips, and benefits of adopting a plant based diet. Now start cooking and find out how delicious plants really can be!
+          </p>
+          <p class="subscribe">Subscribe via <a href="{{ "/subscribe" | prepend: site.baseurl }}">Email</a> or <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Feed</a>.</p>
+          <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

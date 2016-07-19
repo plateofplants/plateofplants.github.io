@@ -5,7 +5,7 @@ title: West African Peanut Soup
 
 tags: recipe
 
-thumbnail: /assets/west-african-peanut-soup.jpg
+thumbnail: west-african-peanut-soup.jpg
 ---
 
 {% img 'west-african-peanut-soup.jpg' alt:'Bowl of West African Peanut Soup' %}

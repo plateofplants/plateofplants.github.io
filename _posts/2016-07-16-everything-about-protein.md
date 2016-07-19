@@ -3,9 +3,11 @@ layout: post
 
 title: Everything an herbivore needs to know about protein
 
-thumbnail: /assets/hannah.jpg
+thumbnail: hannah.jpg
 
 summary: This is a summary about stuff
+
+published: false
 ---
 
 Surprisingly the first questions everyone asks when you tell them you are going to stop eating animal products is, where will you get your protein? The truth is not many people know why we need protein, how we get it, or how much we actually need. Consider this your crash coarse, and guide that you can show any worrying friends or family.

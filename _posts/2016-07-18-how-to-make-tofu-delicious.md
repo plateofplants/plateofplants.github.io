@@ -3,7 +3,7 @@ layout: post
 
 title: How to make tofu delicious
 
-thumbnail: /assets/tofu_cubed.jpg
+thumbnail: tofu_cubed.jpg
 
 summary: Tackling tofu, made easy!
 ---

@@ -6,13 +6,13 @@ title: Blog
 
 <div class="posts">
   {% for post in site.posts %}
-  {% unless post.categories contains 'recipe' or post.tags contains 'recipe' %}
+  {% unless !post.published or post.categories contains 'recipe' or post.tags contains 'recipe' %}
   <div class="blog-post">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     {% if post.thumbnail %}
-    <img class="thumbnail" src="{{ post.thumbnail }}">
+    {% img '{{ post.thumbnail }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
     {% endif %}
     {% if post.summary %}
     <p class="summary">{{ post.summary }}</p>

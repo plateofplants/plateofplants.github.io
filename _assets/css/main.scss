@@ -62,10 +62,6 @@ legend {
   text-decoration: none;
 }
 
-.sticky ul {
-  margin-left: 1.25rem;
-}
-
 .pagination .current {
   background: #C5E1A5;
   color: #fefefe;
@@ -142,10 +138,19 @@ legend {
   margin-top: -10px;
 }
 
-.social {
+.sharing {
   margin-bottom: 1em;
 }
-.social a, .fb-like, .twitter-share-button {
+.sharing a, .fb-like, .twitter-share-button {
   margin-right: 1em;
   vertical-align: middle;
+}
+
+.social {
+  list-style-type: none;
+  margin: 0 0 1em;
+}
+.social li {
+  display: inline-block;
+  margin-right: 1em;
 }

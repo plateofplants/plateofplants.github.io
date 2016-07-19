@@ -22,10 +22,10 @@
 
   {% if page.tags and pages.tags.size > 0 %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
-  {% if page.image.thumb %}
-    {% assign image = page.image.thumb | asset_path | prepend: site.baseurl | prepend: site.url %}
+  {% if page.thumbnail %}
+    {% assign image = page.thumbnail | asset_path %}
   {% else %}
-    {% assign image = "logo" | asset_path | prepend: site.baseurl | prepend: site.url %}
+    {% assign image = "logo" | asset_path %}
   {% endif %}
 
   {% assign url = page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url %}
@@ -38,15 +38,13 @@
   <meta property="og:url" content="{{ url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
-  {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ page.image.feature | prepend: "/assets/" | prepend: site.baseurl | prepend: site.url }}">
-  {% else %}<meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ image }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ image }}">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:creator" content="{{ site.twitter }}">
 
-  <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
   {% css main %}
   <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Pacifico|Dosis|Poiret+One'>
   <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css">

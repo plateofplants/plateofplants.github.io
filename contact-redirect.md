@@ -8,4 +8,6 @@ permalink: /thank-you-for-contacting-me
 
 <p class="lead">Thank you for contacting me.</p>
 
-I *always* love to hear from my readers!
+I love to hear from my readers.
+
+{% img 'spinach.jpg' alt:'spinach' %}

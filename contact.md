@@ -4,7 +4,7 @@ layout: default
 title: Contact
 ---
 
-<form action="//formspree.io/help@programmingjs.com" method="POST" class="contact form">
+<form action="//formspree.io/plateofplants@gmail.com" method="POST" class="contact form">
   <fieldset>
     <legend>Let's get in touch.</legend>
     <input type="email" name="name" placeholder="Your Name" />

@@ -7,14 +7,13 @@ title: Recipes
 <div class="posts">
   {% for post in site.posts %}
   {% if post.categories contains 'recipe' or post.tags contains 'recipe' %}
-  <div class="blog-post">
-    <h2>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
+  <div class="recipe">
     {% if post.thumbnail %}
     <img class="thumbnail" src="{{ post.thumbnail }}">
     {% endif %}
-    <p>{{ post.content }}</p>
+    <h2>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
   </div>
   {% endif %}
   {% endfor %}

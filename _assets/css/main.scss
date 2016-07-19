@@ -54,10 +54,6 @@ legend {
   background-color: inherit;
   border: none;
 }
-.callout.primary {
-    background-image: url('https://www.colourbox.com/preview/7655855-roots-of-fresh-carrots-organic-raw-food-ingredients.jpg');
-    background-size: cover;
-}
 .callout.primary a {
   color: #4CAF50;
 }
@@ -91,6 +87,34 @@ legend {
   max-height: 350px;
 }
 
+.recipe {
+  display: inline-block;
+  margin: 1em;
+  width: 190px;
+  vertical-align: top;
+}
+.recipe h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+.recipe .thumbnail {
+  display: block;
+  max-height: 180px;
+  margin: 0 auto 0.5em;
+}
+
+.blog-post {
+  margin-bottom: 1em;
+}
+.blog-post .thumbnail {
+  max-height: 140px;
+  margin-right: 1em;
+}
+.blog-post .summary {
+  display: inline;
+  vertical-align: top;
+}
+
 #selfie {
   display: block;
   width: 180px;
@@ -100,4 +124,28 @@ legend {
 
 #content {
   margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#mc-embedded-subscribe-form {
+  background-color: #FFE3C6;
+  padding: 0 !important;
+}
+
+#mc-embedded-subscribe {
+  background: #4CAF50 !important;
+}
+
+.mc-field-group {
+  padding-bottom: 0;
+  margin-top: -10px;
+}
+
+.social {
+  margin-bottom: 1em;
+}
+.social a, .fb-like, .twitter-share-button {
+  margin-right: 1em;
+  vertical-align: middle;
 }

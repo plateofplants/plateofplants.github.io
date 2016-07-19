@@ -15,7 +15,9 @@ hidden: true
     {% if post.thumbnail %}
     <img class="thumbnail" src="{{ post.thumbnail }}">
     {% endif %}
-    <p>{{ post.content }}</p>
+    {% if post.summary %}
+    <p class="summary">{{ post.summary }}</p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

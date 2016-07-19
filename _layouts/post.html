@@ -7,43 +7,16 @@ layout: default
   <div class="container content">
 
     <div class="post-content" itemprop="articleBody">
+      <h2>{{ page.title }}</h2>
+
       {{ content }}
-
-      <p>Thank you for reading! If you enjoyed it and want to learn more, make sure you subscribe to receive updates.</p>
     </div>
-
-    <div id="mc_embed_signup">
-    <form action="//programmingjs.us12.list-manage.com/subscribe/post?u=e02e506170ec88c7dd2825def&amp;id=691544088a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe form" target="_blank" novalidate>
-      <legend>Subscribe to Programming JavaScript</legend>
-      <div class="mc-field-group">
-        <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
-      </div>
-      <div class="mc-field-group">
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
-      </div>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e02e506170ec88c7dd2825def_691544088a" tabindex="-1" value=""></div>
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
-      <small>You'll receive about one email a month. If you change your mind, you can unsubscribe at any time.</small>
-    </form>
-    </div>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
     <div class="sharing">
-      <h4>And if you loved this article, share it with your geeky friends.</h4>
-
       <div class="social">
-        <script>
-          reddit_url = '{{ page.url | prepend: site.baseurl | prepend: site.url }}';
-          reddit_title = '{{ page.title }}';
-          reddit_target = 'learnjavascript';
-        </script>
-        <script src="//www.redditstatic.com/button/button3.js"></script>
+        <a data-pin-do="buttonPin" data-pin-tall="true" data-pin-round="true" data-pin-save="false" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=https%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description={{ page.title | escape }}"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_round_red_32.png" /></a>
 
-        <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="Some Title" data-url="http://www.igvita.com/">Vote on HN</a>
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
 
         <a href="https://twitter.com/share" class="twitter-share-button"{count} data-size="large">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -51,12 +24,12 @@ layout: default
 
     </div>
 
-    {% assign related_posts = site.related_posts limit:3 %}
+    {% assign related_posts = site.related_posts %}
     {% if related_posts.size > 0 %}
     <div class="related">
       <h2>You might also be interested in...</h2>
       <ul class="related-posts">
-        {% for post in related_posts %}
+        {% for post in related_posts limit:3 %}
           <li>
             <h3>
               <a href="{{ site.baseurl }}{{ post.url }}">

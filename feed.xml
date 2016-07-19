@@ -1,48 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
-<link href="http://plateofplants.com/feed.xml" rel="self" type="application/atom+xml" />
-<link href="http://plateofplants.com/" rel="alternate" type="text/html" />
-<updated>2016-05-18T20:57:14-04:00</updated>
-<id>http://plateofplants.com/</id>
-<subtitle>This needs to be a description that says stuff and things about Plate of Plants. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle>
-<author>
-<name>Hannah Schoenborn</name>
-</author>
-<entry>
-<title>This is a post title.</title>
-<link href="http://plateofplants.com/this-is-the-url" rel="alternate" type="text/html" title="This is a post title." />
-<published>2016-05-18T00:00:00-04:00</published>
-<updated>2016-05-18T00:00:00-04:00</updated>
-<id>http://plateofplants.com/this-is-the-url</id>
-<content type="html" xml:base="http://plateofplants.com/this-is-the-url">&lt;p&gt;This is some content. And stuff. And things.&lt;/p&gt;
-</content>
-<category term="recipe" />
-<summary>This is some content. And stuff. And things.</summary>
-</entry>
-<entry>
-<title>Whatever, man. This is a title.</title>
-<link href="http://plateofplants.com/my-cool-post" rel="alternate" type="text/html" title="Whatever, man. This is a title." />
-<published>2016-05-18T00:00:00-04:00</published>
-<updated>2016-05-18T00:00:00-04:00</updated>
-<id>http://plateofplants.com/my-cool-post</id>
-<content type="html" xml:base="http://plateofplants.com/my-cool-post">&lt;ol&gt;
-  &lt;li&gt;things&lt;/li&gt;
-  &lt;li&gt;more&lt;/li&gt;
-  &lt;li&gt;stuff&lt;/li&gt;
-&lt;/ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://plateofplants.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://plateofplants.com/" rel="alternate" type="text/html" /><updated>2016-07-19T10:21:26-04:00</updated><id>http://plateofplants.com/</id><title>Plate of Plants</title><subtitle>Making plant based cooking simple. Learn to take your vegetables from garden to gourmet. Tons of free vegan recipes and tips!</subtitle><author><name>Hannah Schoenborn</name></author><entry><title>How to make tofu delicious</title><link href="http://plateofplants.com/how-to-make-tofu-delicious" rel="alternate" type="text/html" title="How to make tofu delicious" /><published>2016-07-18T00:00:00-04:00</published><updated>2016-07-18T00:00:00-04:00</updated><id>http://plateofplants.com/how-to-make-tofu-delicious</id><content type="html" xml:base="http://plateofplants.com/how-to-make-tofu-delicious">&lt;p&gt;&lt;img src=&quot;/assets/tofu_cubed.jpg&quot; alt=&quot;tofu cubed&quot; width=&quot;2632&quot; height=&quot;2071&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;a-header-thingy&quot;&gt;a header thingy&lt;/h1&gt;
+&lt;p&gt;I have NOT always loved tofu. Straight out of the package, it can be a flavorless mess. However, learning to make tofu taste great is really as easy as one, two, three. Press it, marinade it, and cook it. When prepared correctly tofu makes a great meat replacement.
+The things I love about tofu are:
+- neutral flavor
+- texture can vary
+- complete protein&lt;/p&gt;
+
+&lt;p&gt;Now let learn how to make this block of soy irresistible!&lt;/p&gt;
+
+&lt;h2 id=&quot;pressing&quot;&gt;Pressing&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pressing_tofu.jpg&quot; alt=&quot;pressing tofu&quot; width=&quot;3623&quot; height=&quot;2185&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pressing tofu is necessary if you want it to take on a texture that is firm, not mushy. This step is necessary, even if buying “extra firm” tofu in the store. Tofu is usually packed in water and some of that water is absorbed. Pressing it is a simple step that will make a world of difference.
+To press your tofu:
+- Remove it from the package
+- Dump out all of the water
+- Wrap tofu with an absorbent towel and place on a small plate.
+- Place a heavy object on the tofu.
+I suggest leaving it this way for several hours (or overnight). However, 20-30 minutes is enough time to remove a lot of the water. The longer, the better. I usually prep my veggies while it is pressing. Good heavy objects include: cast iron skillet, a sealed container filled with water, or if pressing overnight: a bottle of orange juice, filtered water picture, or your milk alternative.&lt;/p&gt;
+
+&lt;h2 id=&quot;flavoring&quot;&gt;Flavoring&lt;/h2&gt;
+
+&lt;p&gt;Tofu on its own, is pretty bland. You want to infuse flavor into it. With tofu the best way to do this is with a liquid. Soy sauce works great for a lot of recipes. If you want to use dried spices just stir in enough water to make it pourable. 15-20 minutes is usually long enough to soak up the goodness.&lt;/p&gt;
+
+&lt;h2 id=&quot;cooking&quot;&gt;Cooking&lt;/h2&gt;
+
+&lt;p&gt;Tofu can be baked, grilled, or fried to fit any recipe. The options are endless!&lt;/p&gt;</content><author><name>Hannah Schoenborn</name></author><summary></summary></entry><entry><title>Everything an herbivore needs to know about protein</title><link href="http://plateofplants.com/everything-about-protein" rel="alternate" type="text/html" title="Everything an herbivore needs to know about protein" /><published>2016-07-16T00:00:00-04:00</published><updated>2016-07-16T00:00:00-04:00</updated><id>http://plateofplants.com/everything-about-protein</id><content type="html" xml:base="http://plateofplants.com/everything-about-protein">&lt;p&gt;Surprisingly the first questions everyone asks when you tell them you are going to stop eating animal products is, where will you get your protein? The truth is not many people know why we need protein, how we get it, or how much we actually need. Consider this your crash coarse, and guide that you can show any worrying friends or family.&lt;/p&gt;
+
+&lt;p&gt;So, if you live in any westernized country you probably know that the general publics perceptions is meat = protein, or maybe Cheese, milk, egg = protein. What do you do if you decide to abandoned those food though? You learn. You learn very fast that almost everything you eat has protein in it. But is that enough? Almost certainly, yes. As long as your are eating a variety of plants, you are probably getting everything you need. Probably is not a word I trust when it comes to nourishing my body though, and neither shall you. If anything, you need to know about protein just so your mom doesn’t worry.&lt;/p&gt;
+
+&lt;p&gt;Lets make this simple. Protein is needed to rebuild, muscles and tissues throughout your body. Protein is a chain of nine essential amino acids. You need all nine amino acids for protein to be considered a “complete protein or one that can be used by the human body. This is where things get tricky. Almost all animal products already contain a complete protein. Plants however don’t usually have all nine essential amino acids. To make sure you are getting complete proteins you can eat a plant that you know contains a complete protein.&lt;/p&gt;
+
+&lt;h2 id=&quot;complete-proteins&quot;&gt;Complete proteins&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;also&lt;/li&gt;
-  &lt;li&gt;a&lt;/li&gt;
-  &lt;li&gt;list&lt;/li&gt;
-  &lt;li&gt;of&lt;/li&gt;
-  &lt;li&gt;stuff&lt;/li&gt;
+  &lt;li&gt;Quinoa&lt;/li&gt;
+  &lt;li&gt;Buckwheat (look into using soba noodles)&lt;/li&gt;
+  &lt;li&gt;Soy (edamame, tofu, tempeh)&lt;/li&gt;
+  &lt;li&gt;Chia (chia puddings=yum)&lt;/li&gt;
+  &lt;li&gt;Hemp seed&lt;/li&gt;
+  &lt;li&gt;Legume (beans, lentils, peanuts) + Grain (wheat, rice, corn)&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-<summary>  things  more  stuff</summary>
-</entry>
-</feed>
+
+&lt;p&gt;These foods are so easy to incorporate if you aren’t already enjoying them! You also don’t need to eat a complete protein for every meal. I like to make sure I am getting at least one throughout the coarse of the day. Eating massive amounts of proteins is not necessary for your body to function properly. When you eat meat you are eating protein, fat, fat and a few minerals. When you eat plants you are giving your body, protein, carbohydrates, antioxidants, vitamins, and minerals. You give your body so much more when you start eating primarily plant food.&lt;/p&gt;</content><author><name>Hannah Schoenborn</name></author><summary>Surprisingly the first questions everyone asks when you tell them you are going to stop eating animal products is, where will you get your protein? The truth is not many people know why we need protein, how we get it, or how much we actually need. Consider this your crash coarse, and guide that you can show any worrying friends or family.</summary></entry><entry><title>West African Peanut Soup</title><link href="http://plateofplants.com/west-african-peanut-soup" rel="alternate" type="text/html" title="West African Peanut Soup" /><published>2016-06-14T00:00:00-04:00</published><updated>2016-06-14T00:00:00-04:00</updated><id>http://plateofplants.com/west-african-peanut-soup</id><content type="html" xml:base="http://plateofplants.com/west-african-peanut-soup">&lt;p&gt;&lt;img src=&quot;/assets/west-african-peanut-soup.jpg&quot; alt=&quot;Bowl of West African Peanut Soup&quot; width=&quot;5472&quot; height=&quot;3648&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s easy to feel overwhelmed when considering taking up a plant based diet. Your mind seem to be filled with “I can’t eat…”, that you forget all the delicious plant based food you’ve been neglecting for years. This recipe is a perfect example of a combination that I had been missing my entire life. The first vegan recipe I tried taught me a lot about what I had been missing before I put much thought into what entered my body. I find it fitting that this is the first recipe posted on Plate of Plants. If you think this seems like an odd combination, you’d be right. Tomatoes and peanut butter, yes indeed! Don’t bash it until you try it. When served with rice this meal provides you with a complete protein.&lt;/p&gt;
+
+&lt;p&gt;Recipe adapted from: &lt;a href=&quot;http://cookieandkate.com/2013/west-african-peanut-soup/&quot; target=&quot;_blank&quot;&gt;Cookie and Kate&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6 Cups Vegetable Broth&lt;/li&gt;
+  &lt;li&gt;1 medium onion&lt;/li&gt;
+  &lt;li&gt;2 Tablespoons grated ginger&lt;/li&gt;
+  &lt;li&gt;4 cloves garlic, minced&lt;/li&gt;
+  &lt;li&gt;1 teaspoon salt&lt;/li&gt;
+  &lt;li&gt;2 cups kale or collards, roughly chopped&lt;/li&gt;
+  &lt;li&gt;1 large sweet potato, cubed&lt;/li&gt;
+  &lt;li&gt;1 Tablespoon olive oil&lt;/li&gt;
+  &lt;li&gt;3/4 cup Natural Peanut butter*&lt;/li&gt;
+  &lt;li&gt;1/2 cup Tomato paste&lt;/li&gt;
+  &lt;li&gt;Sriracha to taste&lt;/li&gt;
+  &lt;li&gt;chopped peanuts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions&quot;&gt;Directions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Preheat oven to 400 degrees.&lt;/li&gt;
+  &lt;li&gt;spread sweet potatoes out on parchment lined baking sheet. Drizzle with oil, season with S&amp;amp;P, and bake for 15-20 minutes, until tender.&lt;/li&gt;
+  &lt;li&gt;In a large stock pot, bring broth, onion, ginger, and garlic to a boil. Simmer 20 minutes.&lt;/li&gt;
+  &lt;li&gt;In a mixing bowl whisk peanut butter, tomato paste, and 2 cups hot stock. After mixture is smooth, add to pot of broth. Stir in greens and hot sauce to taste, simmer 15 minutes. With a few minutes left, add in the sweet potatoes.&lt;/li&gt;
+  &lt;li&gt;Serve over rice(or other grain). Garnish with chopped peanuts.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Hannah Schoenborn</name></author><category term="recipe" /><summary></summary></entry></feed>

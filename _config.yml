@@ -14,11 +14,6 @@ url: http://plateofplants.com
 
 disqus: plateofplants
 
-cdn: https://plateofplants.github.io
-skip_baseurl_with_cdn: false
-skip_prefix_with_cdn: false
-prefix: "/assets"
-
 permalink: /:title
 
 paginate: 10
@@ -41,3 +36,9 @@ compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
+
+assets:
+  cdn: https://plateofplants.github.io
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"

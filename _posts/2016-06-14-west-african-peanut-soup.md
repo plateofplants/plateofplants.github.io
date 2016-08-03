@@ -6,6 +6,8 @@ title: West African Peanut Soup
 tags: recipe
 
 thumbnail: west-african-peanut-soup.jpg
+
+published: false
 ---
 
 {% img 'served-soup.jpg' alt:'two bowls and a pot full of west african soup' %}

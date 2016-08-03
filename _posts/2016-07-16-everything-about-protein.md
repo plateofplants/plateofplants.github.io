@@ -1,20 +1,20 @@
 ---
 layout: post
 
-title: Everything an herbivore needs to know about protein
+title: How does a vegan get protein?
 
 thumbnail: hannah.jpg
 
-summary: This is a summary about stuff
+summary: Everything you need to know and more about complete proteins
 
 published: false
 ---
 
-Surprisingly the first questions everyone asks when you tell them you are going to stop eating animal products is, where will you get your protein? The truth is not many people know why we need protein, how we get it, or how much we actually need. Consider this your crash coarse, and guide that you can show any worrying friends or family.
+The first questions everyone asks when you tell them you are going to stop eating animal products is, where will you get your protein? It is a valid question, and you need to know the answer. Plants can provide you with all the protein you need.
 
-So, if you live in any westernized country you probably know that the general publics perceptions is meat = protein, or maybe Cheese, milk, egg = protein. What do you do if you decide to abandoned those food though? You learn. You learn very fast that almost everything you eat has protein in it. But is that enough? Almost certainly, yes. As long as your are eating a variety of plants, you are probably getting everything you need. Probably is not a word I trust when it comes to nourishing my body though, and neither shall you. If anything, you need to know about protein just so your mom doesn’t worry.
+So the general publics perceptions is meat = protein, or maybe Cheese, milk, egg = protein.  No one is talking about all the protein in kale. That's because plants don't have much protein when you compare them to meat. We have so many misconceptions about how much we need and why we need it. We don't need protein to feel full(eat 5lb of vegetables and see if you're still hungry). We need protein because it builds and repairs our cells, therefore our bodies.
 
-Lets make this simple. Protein is needed to rebuild, muscles and tissues throughout your body. Protein is a chain of nine essential amino acids. You need all nine amino acids for protein to be considered a “complete protein or one that can be used by the human body. This is where things get tricky. Almost all animal products already contain a complete protein. Plants however don’t usually have all nine essential amino acids. To make sure you are getting complete proteins you can eat a plant that you know contains a complete protein.
+ Protein is a chain of nine essential amino acids. You need all nine amino acids for protein to be considered a “complete protein" or one that can be used by the human body. Plants however don’t always have all nine essential amino acids. I suggest adding plants that contain complete proteins to your diet.
 
 ## Complete proteins
 
@@ -25,4 +25,4 @@ Lets make this simple. Protein is needed to rebuild, muscles and tissues through
 - Hemp seed
 - Legume (beans, lentils, peanuts) + Grain (wheat, rice, corn)
 
-These foods are so easy to incorporate if you aren’t already enjoying them! You also don’t need to eat a complete protein for every meal. I like to make sure I am getting at least one throughout the coarse of the day. Eating massive amounts of proteins is not necessary for your body to function properly. When you eat meat you are eating protein, fat, fat and a few minerals. When you eat plants you are giving your body, protein, carbohydrates, antioxidants, vitamins, and minerals. You give your body so much more when you start eating primarily plant food.
+These foods are so easy to incorporate if you aren’t already enjoying them! You also don’t need to eat a complete protein for every meal. I like to make sure I am getting at least one throughout the coarse of the day. Even if you are not eating any of these, you are probably getting complete proteins already. As long as you are eating a wide variety of plants(they all contain different amino acids). 

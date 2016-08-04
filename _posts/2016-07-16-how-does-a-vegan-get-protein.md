@@ -5,7 +5,7 @@ title: How Does A Vegan Get Protein?
 
 thumbnail: how-does-a-vegan-get-protein/thumbnail.jpg
 
-summary: Everything you need to know and more about complete proteins
+summary: Everything you need to know and more about complete proteins.
 ---
 
 {% img 'how-does-a-vegan-get-protein/labeled-proteins.jpg' alt:'a labeled picture of proteins' %}

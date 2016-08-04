@@ -62,6 +62,10 @@ legend {
   text-decoration: none;
 }
 
+.pagination {
+  clear: both;
+}
+
 .pagination .current {
   background: #C5E1A5;
   color: #fefefe;
@@ -101,10 +105,12 @@ legend {
 
 .blog-post {
   margin-bottom: 1em;
+  clear: both;
 }
 .blog-post .thumbnail {
   max-height: 140px;
   margin-right: 1em;
+  float: left;
 }
 .blog-post .summary {
   display: inline;

@@ -7,7 +7,7 @@ tags: recipe
 
 thumbnail: sesame-soba-noodle-stir-fry/bowlofsoba.jpg
 
-summary: Buckwheat soba noodles and stir fried veggies, smothered in a sesame, cashew butter sauce
+summary: Buckwheat soba noodles and stir fried veggies, smothered in a sesame, cashew butter sauce.
 ---
 
 {% img 'sesame-soba-noodle-stir-fry/ingredients.jpg' alt:'ingredients' %}

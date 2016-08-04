@@ -10,4 +10,4 @@ permalink: /thank-you-for-contacting-me
 
 I love to hear from my readers.
 
-{% img 'spinach.jpg' alt:'spinach' %}
+{% img 'website/spinach.jpg' alt:'spinach' %}

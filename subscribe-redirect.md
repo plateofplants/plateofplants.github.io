@@ -10,4 +10,4 @@ permalink: /thank-you-for-subscribing
 
 You will receive new recipes and posts directly to your inbox!
 
-{% img 'potato.jpg' alt:'potato' %}
+{% img 'website/potato.jpg' alt:'potato' %}

@@ -8,8 +8,6 @@ tags: recipe
 thumbnail: blueberry-mint-muffins/thumbnail.jpg
 
 summary: A new twist on a classic breakfast.
-
-published: false
 ---
 
 {% img 'blueberry-mint-muffins/thumbnail.jpg' alt:'muffin' %}

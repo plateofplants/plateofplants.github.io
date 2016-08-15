@@ -83,10 +83,6 @@ legend {
   color: #999;
 }
 
-.thumbnail {
-  max-height: 350px;
-}
-
 .recipe {
   display: inline-block;
   margin: 1em;
@@ -99,7 +95,6 @@ legend {
 }
 .recipe .thumbnail {
   display: block;
-  max-height: 180px;
   margin: 0 auto 0.5em;
 }
 
@@ -108,7 +103,6 @@ legend {
   clear: both;
 }
 .blog-post .thumbnail {
-  max-height: 140px;
   margin-right: 1em;
   float: left;
 }

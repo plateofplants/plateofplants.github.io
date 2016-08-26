@@ -12,7 +12,7 @@ title: Articles
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     {% if post.thumbnail %}
-    {% img '{{ post.thumbnail }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
+    {% img '{{ post.thumbnail }}' alt:'{{ post.title }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
     {% endif %}
     {% if post.summary %}
     <p class="summary">{{ post.summary }}</p>

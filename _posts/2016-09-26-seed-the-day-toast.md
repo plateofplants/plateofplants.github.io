@@ -9,7 +9,6 @@ thumbnail: seed-the-day-toast/thumbnail.jpg
 
 summary: Quick and easy vegan breakfast.
 
-published: false
 ---
 {% img 'seed-the-day-toast/plates-and-coffee.jpg' alt:'Plates with toast' %}
 

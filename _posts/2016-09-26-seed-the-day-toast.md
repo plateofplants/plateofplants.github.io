@@ -25,9 +25,9 @@ It seems like everybody is looking for a quick and healthy breakfast. Wake up ea
 Photos in collaboration with Amber Wood of [Quest Type](https://questtype.com/).
 
 ## Seed the day Toast
-Recipe by: Hannah
-Serves: 1
-Time: 3 minutes
+Recipe by: Hannah<br>
+Serves: 1<br>
+Time: 3 minutes<br>
 
 * 1 slice of bread
 * 2 tbsp natural peanut butter

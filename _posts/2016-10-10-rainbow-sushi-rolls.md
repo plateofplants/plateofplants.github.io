@@ -8,8 +8,8 @@ tags: recipe
 thumbnail: rainbow-sushi-rolls/sushi-on-plate.jpg
 
 summary: Make your own delicious sushi at home without a bamboo mat.
-
 ---
+
 {% img 'rainbow-sushi-rolls/ingredients.jpg' alt:'Ingredients for rainbow sushi rolls' %}
 
 {% img 'rainbow-sushi-rolls/sushi-assembly-1.jpg' alt:'How to assemble sushi' %}
@@ -24,7 +24,6 @@ summary: Make your own delicious sushi at home without a bamboo mat.
 
 {% img 'rainbow-sushi-rolls/served-rainbow-sushi.jpg' alt:'Rainbow sushi rolls' %}
 
-
 Sushi is fun! It’s fun to make, fun to eat, it’s even fun to say. So are you ready to have some fun?
 
 The key to great sushi is great sushi rice, so be sure to follow the method exactly. I always use short grain brown rice instead of white sushi rice. Anytime you have the choice between a whole grain or a refined “white” grain, go for the whole grain. You will feel the difference in energy levels when you give your body lots of nutrition through whole plant foods.
@@ -34,6 +33,7 @@ For years I never attempted to make my own sushi. I always though it required ex
 You can put a huge variety of vegetables in these sushi rolls. I always add marinated tofu for bonus flavor, and  the avocado for a creamy texture in mine, but the vegetables can be used interchangeably with any others you have on hand. This dish is perfect for lunch (especially packed lunches), appetizers, or you can make a variety of rolls and have a sushi night.
 
 ## Rainbow Sushi Rolls
+
 Recipe by: Hannah<br>
 Serves: 2<br>
 Prep time: 10 minutes<br>

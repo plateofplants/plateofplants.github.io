@@ -7,7 +7,7 @@ title: Articles
 <div class="posts">
   {% for post in site.posts %}
   {% unless !post.published or post.categories contains 'recipe' or post.tags contains 'recipe' %}
-  <div class="blog-post">
+  <div class="article">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>

@@ -22,7 +22,7 @@ summary: Simple, 4-ingredient pumpkin gnocchi from scratch with sage cashew crea
 
 When I think about November, I think about sage. Sage is one of my favorite herbs. It is the heart of Thanksgiving flavors. When I smell a sage leaf I am transported back to my mothers kitchen years ago. Food has such a way of bringing back memories and moments. Let Thanksgiving be a reminder of all the great times you have had.
 
-These pumpkin gnocchi will make you feel like a master of holiday cooking. Homemade gnocchi taste so much better than store bought, and you only need 4 ingredients. Although they take some extra time, it is totally worth it, and they are really fun to make with friends and family. This recipes is made with all whole food ingredients. It’s a hearty meal that everyone will love
+These pumpkin gnocchi will make you feel like a master of holiday cooking. Homemade gnocchi taste so much better than store bought and you only need 4 ingredients. Although they take some extra time, it is totally worth it and they are really fun to make with friends and family. This recipe is made with all whole food ingredients. It’s a hearty meal that everyone will love.
 
 ## Pumpkin Gnocchi with Sage Cashew Cream
 
@@ -35,7 +35,7 @@ Total time: 48 minutes
 ### Gnocchi
 
 * 2 medium russet potatoes
-* 1 cup pumpkin(see notes)
+* 1 cup pumpkin puree
 * 1 tsp salt
 * 2-3 cups whole wheat flour
 
@@ -56,8 +56,10 @@ Total time: 48 minutes
 * 2 cloves garlic, minced
 * small sage leaves for garnish
 
+### Directions
+
 1. Bring a large pot of water to a boil. Peel and quarter potatoes. Add them into boil water and let cook 15 mins, until tender.
-2. In a large bowl mash potatoes, and pumpkin together. Add in salt and flour 1/2 cup at a time. I used about 2 1/2 cups flour, but it will depend on how moist your potato pumpkin mash is. You know you have added enough flour when it feels like dough and you can mold it with our it sticking to your hands.
+2. In a large bowl mash potatoes and pumpkin together. Add in salt and flour 1/2 cup at a time. I used about 2 1/2 cups flour, but it will depend on how moist your potato pumpkin mash is. You know you have added enough flour when it feels like dough and you can mold it with our it sticking to your hands.
 3. Take 1/4 of the gnocchi dough and roll it into a rope approximately 1 inch wide. Flatten the rope it slightly with you hands. Cut every 1/2 inch. Repeat with the rest of the dough
 4. Bring a fresh pot of water to a boil. once boiling add in gnocchi (you will need to do multiple batches). Cook gnocchi 3 minutes, or until they have floated to the top.
 5. While gnocchi are cooking, add all cashew cream ingredients to a high speed blender and blend for 30 seconds. Adjust seasonings to your liking and heat in a small saucepan.

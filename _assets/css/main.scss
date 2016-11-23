@@ -110,10 +110,10 @@ ul, ol {
 }
 
 #selfie {
-  display: block;
-  width: 180px;
-  height: 180px;
-  margin: 0 auto 10px auto;
+  margin: 14px 10px 10px 0px;
+  shape-outside: ellipse();
+  float: left;
+  margin-right: 10px;
 }
 
 #content {

@@ -6,17 +6,19 @@ title: Recipes
 
 <div class="posts">
   {% for post in site.posts %}
-  {% unless !post.published %}
-  {% if post.categories contains 'recipe' or post.tags contains 'recipe' %}
-  <div class="recipe">
-    {% if post.thumbnail %}
-    {% img '{{ post.thumbnail }}' alt:'{{ post.title }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
-    {% endif %}
-    <h2>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-  </div>
-  {% endif %}
-  {% endunless %}
+    {% unless !post.published %}
+      {% if post.categories contains 'recipe' or post.tags contains 'recipe' %}
+      <div class="recipe">
+        {% if post.thumbnail %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {% img '{{ post.thumbnail }}' alt:'{{ post.title }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
+        </a>
+        {% endif %}
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </div>
+      {% endif %}
+    {% endunless %}
   {% endfor %}
 </div>

@@ -3,7 +3,7 @@ layout: post
 
 title: How To Brew Kombucha
 
-thumbnail: kombucha/thumbnail.jpg
+thumbnail: kombucha/overhead-ingredients.jpg
 
 summary: This fizzy fermented tea is delicious and packed with probiotics for digestive health. It is economical to brew at home (costing only about 10¢ per bottle compared to $4 per bottle in stores).
 ---

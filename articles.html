@@ -5,21 +5,20 @@ title: Articles
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-  {% unless !post.published or post.categories contains 'recipe' or post.tags contains 'recipe' %}
-  <div class="article">
-    <h2>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    {% if post.thumbnail %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      {% img '{{ post.thumbnail }}' alt:'{{ post.title }}' class:'thumbnail' width:180 height:180 magick:resize:180x180 %}
-    </a>
-    {% endif %}
-    {% if post.summary %}
-    <p class="summary">{{ post.summary }}</p>
-    {% endif %}
-  </div>
+{% for post in site.posts %}
+  {% unless !post.published %}
+    {% unless post.categories contains 'recipe' or post.tags contains 'recipe' %}
+    <div class="article">
+      {% if post.thumbnail %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        {% img '{{ post.thumbnail }}' alt:'{{ post.title }}' class:'thumbnail' %}
+      </a>
+      {% endif %}
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </div>
+    {% endunless %}
   {% endunless %}
-  {% endfor %}
+{% endfor %}
 </div>

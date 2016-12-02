@@ -1,5 +1,5 @@
 body {
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -81,32 +81,19 @@ ul, ol {
   width: 100%;
 }
 
-.recipe {
+.recipe, .article {
   display: inline-block;
   margin: 0.75em;
   width: 190px;
   vertical-align: top;
 }
-.recipe h2 {
+.recipe h2, .article h2 {
   font-size: 1.5em;
   text-align: center;
 }
-.recipe .thumbnail {
+.recipe .thumbnail, .article .thumbnail {
   display: block;
   margin: 0 auto 0.5em auto;
-}
-
-.article {
-  margin-bottom: 1em;
-  clear: both;
-}
-.article .thumbnail {
-  margin-right: 1em;
-  float: left;
-}
-.article .summary {
-  display: inline;
-  vertical-align: top;
 }
 
 #selfie {
@@ -134,7 +121,7 @@ ul, ol {
 }
 
 .sharing {
-  margin-bottom: 1em;
+  margin: 3em 0 2.5em 0;
 }
 .sharing a, .fb-like, .twitter-share-button {
   margin-right: 1em;

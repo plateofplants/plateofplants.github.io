@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 
-  {% if page.title %}
-    {% assign title = page.title + ' | ' + site.title %}
+  {% if page.title and page.title != site.title %}
+    {% assign title = site.title | prepend: ' | ' | prepend: page.title %}
   {% else %}
     {% assign title = site.title %}
   {% endif %}

@@ -42,6 +42,7 @@ This is a whole food, plant-based vegan recipe.
 * 1 Tbsp ginger, grated
 * 5 cloves garlic, minced
 * 4-5 cups vegetable broth
+* salt and pepper
 * pepitas
 
 ### Directions
@@ -49,4 +50,4 @@ This is a whole food, plant-based vegan recipe.
 1. Peel the squash, scoop out the seeds, and cut into 1 inch cubes. Place cubes in steamer over medium heat and cook until extremely soft, 10-12 minutes.
 2. Heat a large pot over medium heat. Once hot, add onion and cook 3-5 minutes, until softened. Next add minced garlic and grated ginger and cook another 2 minutes.
 3. Add cooked squash,  4 cups broth, and the contents of your pot to a blender and blend on high speed until soup is creamy. If the consistency is too thick, keep adding broth until it is to your liking.
-4. Pour the soup back into the pot and heat until simmering. Serve, garnished with pepitas.
+4. Pour the soup back into the pot and heat until simmering. Season with salt and pepper. Ladle into bowls and garnish with pepitas.
